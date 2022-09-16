@@ -1,0 +1,4 @@
+node_modules/
+routes/index.js is the entry point for every router
+routes/users.js is router for profile_controller.js
+router users.js k andr 2 controller k data ko retrive kiya hai line 3,5 se profile aur 4,6 se contact ko
