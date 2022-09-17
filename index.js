@@ -3,7 +3,7 @@ const app=express();
 const port=8999;
 const expressLayouts=require('express-ejs-layouts')
 //require mongoose
-// const db=require('./config/mongoose')
+const db=require('./config/mongoose')
 app.use(express.static('./assets'))
 app.use(expressLayouts)
 
