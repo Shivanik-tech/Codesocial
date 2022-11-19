@@ -7,7 +7,7 @@
 // });
 // module.exports=db;
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://localhost/codeial_developement_one',{
+mongoose.connect("mongodb+srv://code_social2:shivani123@cluster0.3ydpjsp.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
     family:4,
